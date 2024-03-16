@@ -1,13 +1,17 @@
 {
-    "name": "ilze-bilze/ilze",
-    "type": "drupal-module",
-    "authors": [
-        {
-            "name": "ilze-bilze",
-            "email": "ilzespruge@gmail.com"
-        }
-    ],
-    "require": {
-        "drupal/component": "^1.0@RC"
+  "name": "ilze-bilze/ilze",
+  "description": "This is custom JS module",
+  "type": "drupal-custom-module",
+  "keywords": ["Drupal"],
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "ilze-bilze",
+      "email": "ilzespruge@gmail.com"
     }
+  ],
+  "require": {
+    "drupal/component": "^1.0@RC"
+  },
+  "license": "proprietary"
 }
