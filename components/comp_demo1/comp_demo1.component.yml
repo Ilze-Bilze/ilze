@@ -1,0 +1,19 @@
+name: Users component
+description: Some description of comp_demo1
+template: index.html
+css:
+  styles.css: {}
+js:
+  script.js: {}
+form_configuration:
+  conf1:
+    type: textfield
+    title: Block Title
+  conf2:
+    type: textfield
+    title: Number of items per page
+    default_value: 0
+  api_url:
+    type: textfield
+    title: Users API URL
+    default_value: https://reqres.in/api/users/

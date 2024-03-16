@@ -1,0 +1,7 @@
+name: Ilzes Custom Module
+description: 'Simple block module to show Users'
+type: module
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
+dependencies: 
+  - component:component
